@@ -1,0 +1,13 @@
+import pandas as pd   # Импортируем библиотеку pandas для работы с таблицами
+
+# ID файла на Google Drive (его можно найти в ссылке)
+FILE_ID = "1Ni4rvDTwdX5LpSsI8uur47ISeQ4fkRmW"
+
+# Формируем прямую ссылку для скачивания файла с Google Drive
+file_url = f"https://drive.google.com/uc?id={FILE_ID}"
+
+# Читаем CSV-файл по ссылке
+raw_data = pd.read_csv(file_url)
+
+# Выводим первые 10 строк таблицы для проверки
+print(raw_data.head(10))
