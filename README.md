@@ -26,5 +26,10 @@ Since the data is fully synthetic, it is safe for public use and contains no per
       raw_data.head(10) 
 
 ## Зависимости 
-
+    pandas
+    matplotlib
+    jupyterlab
+    gdown
+    wget
+    ipykernel
    
