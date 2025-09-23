@@ -24,7 +24,7 @@ Since the data is fully synthetic, it is safe for public use and contains no per
       raw_data = pd.read_csv(file_url)     # читаем файл
 
       raw_data.head(10) 
-![Data Loading Result](Скриншот.JPG)
+![Скриншот](Скриншот.png)
 ## Зависимости 
     pandas
     matplotlib
