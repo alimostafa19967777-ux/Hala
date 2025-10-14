@@ -14,20 +14,3 @@
 
 ---
 
-## ⚙️ Установка и запуск
-
-```bash
-# 1. Клонируйте проект
-git clone https://github.com/username/youtube-audio-bot.git
-cd youtube-audio-bot
-
-# 2. Установите виртуальное окружение
-python -m venv venv
-source venv/bin/activate  # для Linux / macOS
-venv\Scripts\activate     # для Windows
-
-# 3. Установите зависимости
-pip install -r requirements.txt
-
-# 4. Запустите бота
-python bot.py
